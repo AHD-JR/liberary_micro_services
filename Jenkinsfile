@@ -10,7 +10,7 @@ pipeline {
   }
 
   tools {
-    //maven Maven
+    maven "Maven"
     // provided Maven is installed in Jenkins as aplugin or via CLI
   }
 
