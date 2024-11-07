@@ -9,10 +9,10 @@ pipeline {
     SERVER_CREDENTIALS = credentials('GCP_SERVICE_ACCOUNT') //extracting creds from jenkins server using credentials-binding plugin
   }
 
-  tools {
-    maven "Maven"
+  //tools {
+    //maven "Maven"
     // provided Maven is installed in Jenkins as aplugin or via CLI
-  }
+  //}
 
   parameters {
     //string(name: 'VERSION', defaultValue: '', description: 'version to deploy on prod')
